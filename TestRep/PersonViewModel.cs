@@ -12,7 +12,7 @@ namespace TestRep
     {
         public PersonViewModel()
         {
-            myCommand = new ButtonCommand(this);
+            myCommand = new ButtonCommand(p.CalcTax,p.IsValid);
         }
 
         private Person p = new Person();
