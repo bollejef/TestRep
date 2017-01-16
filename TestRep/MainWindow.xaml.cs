@@ -20,20 +20,16 @@ namespace TestRep
     /// </summary>
     public partial class MainWindow : Window
     {
+        private PersonViewModel pvm = new PersonViewModel();
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        int X =5, Y = 6;
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
 
-        public string GetStr()
-        {
-            return $"({X},{Y})";
-        }
     }
 }
